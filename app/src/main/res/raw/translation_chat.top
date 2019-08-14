@@ -1,0 +1,6 @@
+topic: ~translation_chat()
+
+u:(_"*")
+$input=$1
+^execute(switchLanguage,$input)
+

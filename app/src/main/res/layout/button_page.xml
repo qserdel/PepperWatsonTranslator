@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical">
+
+    <TextView
+            android:text="Choose first language"
+            android:layout_width="match_parent"
+            android:layout_height="74dp" android:id="@+id/languageHeader" android:layout_weight="1"
+            android:textSize="60sp"/>
+    <Button
+            android:text="English"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/englishButton" android:layout_weight="1"
+            android:textSize="60sp" android:backgroundTint="#00E70A0A"/>
+
+    <Button
+            android:text="Français"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/frenchButton" android:layout_weight="1"
+            android:textSize="60sp"/>
+    <Button
+            android:text="Espanol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/spanishButton" android:layout_weight="1"
+            android:textSize="60sp"/>
+    <Button
+            android:text="Deutsch"
+            android:layout_width="match_parent"
+            android:layout_height="125dp" android:id="@+id/germanButton" android:layout_weight="1"
+            android:textSize="60sp"/>
+</LinearLayout>
